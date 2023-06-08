@@ -1,0 +1,355 @@
+﻿
+CREATE TABLE public.caracteres (
+    caracter character varying(2) NOT NULL,
+    gif character varying(200) NOT NULL
+);
+
+
+ALTER TABLE public.caracteres OWNER TO postgres;
+
+--
+-- TOC entry 197 (class 1259 OID 16403)
+-- Name: palabras; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.palabras (
+    palabra character varying(100) NOT NULL,
+    "descripción" character varying(200) NOT NULL,
+    gif character varying(100) NOT NULL,
+    recurso bytea
+);
+
+
+ALTER TABLE public.palabras OWNER TO postgres;
+
+--
+-- TOC entry 2798 (class 0 OID 16400)
+-- Dependencies: 196
+-- Data for Name: caracteres; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.caracteres (caracter, gif) VALUES ('0', '0.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('1', '1.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('2', '2.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('3', '3.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('4', '4.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('5', '5.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('6', '6.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('7', '7.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('8', '8.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('9', '9.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('a', 'a.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('á', 'a.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('b', 'b.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('c', 'c.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('d', 'd.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('e', 'e.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('é', 'e.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('f', 'f.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('g', 'g.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('h', 'h.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('i', 'i.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('í', 'i.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('j', 'j.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('k', 'k.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('l', 'l.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('m', 'm.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('n', 'n.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('ñ', 'n.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('o', 'o.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('ó', 'o.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('p', 'p.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('q', 'q.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('r', 'r.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('s', 's.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('t', 't.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('u', 'u.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('ú', 'u.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('v', 'v.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('w', 'w.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('x', 'x.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('y', 'y.gif');
+INSERT INTO public.caracteres (caracter, gif) VALUES ('z', 'z.gif');
+
+
+--
+-- TOC entry 2799 (class 0 OID 16403)
+-- Dependencies: 197
+-- Data for Name: palabras; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.palabras VALUES ('aceptar','aceptar','ACEPTAR.gif');
+INSERT INTO public.palabras VALUES ('acusar','acusar','ACUSAR.gif');
+INSERT INTO public.palabras VALUES ('agalla','agalla','AGALLA.gif');
+INSERT INTO public.palabras VALUES ('aguila','aguila','AGUILA.gif');
+INSERT INTO public.palabras VALUES ('albañil','albañil','ALBAÑIL.gif');
+INSERT INTO public.palabras VALUES ('amadecasa','amadecasa','AMADECASA.gif');
+INSERT INTO public.palabras VALUES ('amasar','amasar','AMASAR.gif');
+INSERT INTO public.palabras VALUES ('anfibio','anfibio','ANFIBIO.gif');
+INSERT INTO public.palabras VALUES ('ansiosa','ansiosa','ANSIOSA.gif');
+INSERT INTO public.palabras VALUES ('ansioso','ansioso','ANSIOSO.gif');
+INSERT INTO public.palabras VALUES ('armadillo','armadillo','ARMADILLO.gif');
+INSERT INTO public.palabras VALUES ('asi','asi','ASI.gif');
+INSERT INTO public.palabras VALUES ('atraves','atraves','ATRAVES.gif');
+INSERT INTO public.palabras VALUES ('atropellar','atropellar','ATROPELLAR.gif');
+INSERT INTO public.palabras VALUES ('automático','automático','AUTOMÁTICO.gif');
+INSERT INTO public.palabras VALUES ('axila','axila','AXILA.gif');
+INSERT INTO public.palabras VALUES ('bachillerato','bachillerato','BACHILLERATO.gif');
+INSERT INTO public.palabras VALUES ('barbon','barbon','BARBON.gif');
+INSERT INTO public.palabras VALUES ('barrer','barrer','BARRER.gif');
+INSERT INTO public.palabras VALUES ('bebé','bebé','BEBÉ.gif');
+INSERT INTO public.palabras VALUES ('billetera','billetera','BILLETERA.gif');
+INSERT INTO public.palabras VALUES ('bisexual','bisexual','BISEXUAL.gif');
+INSERT INTO public.palabras VALUES ('blanca','blanca','BLANCA.gif');
+INSERT INTO public.palabras VALUES ('blanco','blanco','BLANCO.gif');
+INSERT INTO public.palabras VALUES ('bobo','bobo','BOBO.gif');
+INSERT INTO public.palabras VALUES ('bocacerrada','bocacerrada','BOCACERRADA.gif');
+INSERT INTO public.palabras VALUES ('boda','boda','BODA.gif');
+INSERT INTO public.palabras VALUES ('bolsadevalores','bolsadevalores','BOLSADEVALORES.gif');
+INSERT INTO public.palabras VALUES ('bolsillo','bolsillo','BOLSILLO.gif');
+INSERT INTO public.palabras VALUES ('bondad','bondad','BONDAD.gif');
+INSERT INTO public.palabras VALUES ('bondadoso','bondadoso','BONDADOSO.gif');
+INSERT INTO public.palabras VALUES ('bostezo','bostezo','BOSTEZO.gif');
+INSERT INTO public.palabras VALUES ('buena','buena','BUENA.gif');
+INSERT INTO public.palabras VALUES ('bueno','bueno','BUENO.gif');
+INSERT INTO public.palabras VALUES ('buenprovecho','buenprovecho','BUENPROVECHO.gif');
+INSERT INTO public.palabras VALUES ('cachetada','cachetada','CACHETADA.gif');
+INSERT INTO public.palabras VALUES ('caducada','caducada','CADUCADA.gif');
+INSERT INTO public.palabras VALUES ('caducado','caducado','CADUCADO.gif');
+INSERT INTO public.palabras VALUES ('calculadora','calculadora','CALCULADORA.gif');
+INSERT INTO public.palabras VALUES ('carajo','carajo','CARAJO.gif');
+INSERT INTO public.palabras VALUES ('carrera','carrera','CARRERA.gif');
+INSERT INTO public.palabras VALUES ('carretera','carretera','CARRETERA.gif');
+INSERT INTO public.palabras VALUES ('carton','carton','CARTON.gif');
+INSERT INTO public.palabras VALUES ('casa','casa','CASA.gif');
+INSERT INTO public.palabras VALUES ('caspa','caspa','CASPA.gif');
+INSERT INTO public.palabras VALUES ('causa','causa','CAUSA.gif');
+INSERT INTO public.palabras VALUES ('cementerio','cementerio','CEMENTERIO.gif');
+INSERT INTO public.palabras VALUES ('centro','centro','CENTRO.gif');
+INSERT INTO public.palabras VALUES ('cepillo','cepillo','CEPILLO.gif');
+INSERT INTO public.palabras VALUES ('chef','chef','CHEF.gif');
+INSERT INTO public.palabras VALUES ('chequera','chequera','CHEQUERA.gif');
+INSERT INTO public.palabras VALUES ('chismosa','chismosa','CHISMOSA.gif');
+INSERT INTO public.palabras VALUES ('chismoso','chismoso','CHISMOSO.gif');
+INSERT INTO public.palabras VALUES ('chocolate','chocolate','CHOCOLATE.gif');
+INSERT INTO public.palabras VALUES ('cilantro','cilantro','CILANTRO.gif');
+INSERT INTO public.palabras VALUES ('colchon','colchon','COLCHON.gif');
+INSERT INTO public.palabras VALUES ('comadre','comadre','COMADRE.gif');
+INSERT INTO public.palabras VALUES ('comoestá','comoestá','COMOESTÁ.gif');
+INSERT INTO public.palabras VALUES ('comparar','comparar','COMPARAR.gif');
+INSERT INTO public.palabras VALUES ('compartir','compartir','COMPARTIR.gif');
+INSERT INTO public.palabras VALUES ('comportamiento','comportamiento','COMPORTAMIENTO.gif');
+INSERT INTO public.palabras VALUES ('compromiso','compromiso','COMPROMISO.gif');
+INSERT INTO public.palabras VALUES ('comunidad','comunidad','COMUNIDAD.gif');
+INSERT INTO public.palabras VALUES ('conmuchogusto','conmuchogusto','CONMUCHOGUSTO.gif');
+INSERT INTO public.palabras VALUES ('consulado','consulado','CONSULADO.gif');
+INSERT INTO public.palabras VALUES ('contenta','contenta','CONTENTA.gif');
+INSERT INTO public.palabras VALUES ('contento','contento','CONTENTO.gif');
+INSERT INTO public.palabras VALUES ('contra','contra','CONTRA.gif');
+INSERT INTO public.palabras VALUES ('contraparte','contraparte','CONTRAPARTE.gif');
+INSERT INTO public.palabras VALUES ('cooperar','cooperar','COOPERAR.gif');
+INSERT INTO public.palabras VALUES ('copiar','copiar','COPIAR.gif');
+INSERT INTO public.palabras VALUES ('corazon','corazon','CORAZON.gif');
+INSERT INTO public.palabras VALUES ('cordillera','cordillera','CORDILLERA.gif');
+INSERT INTO public.palabras VALUES ('corrección','corrección','CORRECCIÓN.gif');
+INSERT INTO public.palabras VALUES ('corrector','corrector','CORRECTOR.gif');
+INSERT INTO public.palabras VALUES ('corregir','corregir','CORREGIR.gif');
+INSERT INTO public.palabras VALUES ('cosa','cosa','COSA.gif');
+INSERT INTO public.palabras VALUES ('coser','coser','COSER.gif');
+INSERT INTO public.palabras VALUES ('costurera','costurera','COSTURERA.gif');
+INSERT INTO public.palabras VALUES ('costurero','costurero','COSTURERO.gif');
+INSERT INTO public.palabras VALUES ('cruzarlaspiernas','cruzarlaspiernas','CRUZARLASPIERNAS.gif');
+INSERT INTO public.palabras VALUES ('cuerpo','cuerpo','CUERPO.gif');
+INSERT INTO public.palabras VALUES ('culantro','culantro','CULANTRO.gif');
+INSERT INTO public.palabras VALUES ('culpa','culpa','CULPA.gif');
+INSERT INTO public.palabras VALUES ('culpable','culpable','CULPABLE.gif');
+INSERT INTO public.palabras VALUES ('cumplida','cumplida','CUMPLIDA.gif');
+INSERT INTO public.palabras VALUES ('cumplido','cumplido','CUMPLIDO.gif');
+INSERT INTO public.palabras VALUES ('cumplir','cumplir','CUMPLIR.gif');
+INSERT INTO public.palabras VALUES ('debajo','debajo','DEBAJO.gif');
+INSERT INTO public.palabras VALUES ('dedicacion','dedicacion','DEDICACION.gif');
+INSERT INTO public.palabras VALUES ('defrente','defrente','DEFRENTE.gif');
+INSERT INTO public.palabras VALUES ('dejar','dejar','DEJAR.gif');
+INSERT INTO public.palabras VALUES ('delgada','delgada','DELGADA.gif');
+INSERT INTO public.palabras VALUES ('delgado','delgado','DELGADO.gif');
+INSERT INTO public.palabras VALUES ('delito','delito','DELITO.gif');
+INSERT INTO public.palabras VALUES ('despacio','despacio','DESPACIO.gif');
+INSERT INTO public.palabras VALUES ('despedir','despedir','DESPEDIR.gif');
+INSERT INTO public.palabras VALUES ('desvio','desvio','DESVIO.gif');
+INSERT INTO public.palabras VALUES ('diapositiva','diapositiva','DIAPOSITIVA.gif');
+INSERT INTO public.palabras VALUES ('disculpa','disculpa','DISCULPA.gif');
+INSERT INTO public.palabras VALUES ('disfrutar','disfrutar','DISFRUTAR.gif');
+INSERT INTO public.palabras VALUES ('dividirseelgasto','dividirseelgasto','DIVIDIRSEELGASTO.gif');
+INSERT INTO public.palabras VALUES ('division','division','DIVISION.gif');
+INSERT INTO public.palabras VALUES ('doblar','doblar','DOBLAR.gif');
+INSERT INTO public.palabras VALUES ('docente','docente','DOCENTE.gif');
+INSERT INTO public.palabras VALUES ('ecuavoley','ecuavoley','ECUAVOLEY.gif');
+INSERT INTO public.palabras VALUES ('embrague','embrague','EMBRAGUE.gif');
+INSERT INTO public.palabras VALUES ('emocion','emocion','EMOCION.gif');
+INSERT INTO public.palabras VALUES ('empleadadomestica','empleadadomestica','EMPLEADADOMESTICA.gif');
+INSERT INTO public.palabras VALUES ('empujar','empujar','EMPUJAR.gif');
+INSERT INTO public.palabras VALUES ('encaminarse','encaminarse','ENCAMINARSE.gif');
+INSERT INTO public.palabras VALUES ('encebollado','encebollado','ENCEBOLLADO.gif');
+INSERT INTO public.palabras VALUES ('encima','encima','ENCIMA.gif');
+INSERT INTO public.palabras VALUES ('enfermo','enfermo','ENFERMO.gif');
+INSERT INTO public.palabras VALUES ('enfocar','enfocar','ENFOCAR.gif');
+INSERT INTO public.palabras VALUES ('enfocarse','enfocarse','ENFOCARSE.gif');
+INSERT INTO public.palabras VALUES ('enfoque','enfoque','ENFOQUE.gif');
+INSERT INTO public.palabras VALUES ('enfrentar','enfrentar','ENFRENTAR.gif');
+INSERT INTO public.palabras VALUES ('enfrente','enfrente','ENFRENTE.gif');
+INSERT INTO public.palabras VALUES ('ensalada','ensalada','ENSALADA.gif');
+INSERT INTO public.palabras VALUES ('entrar','entrar','ENTRAR.gif');
+INSERT INTO public.palabras VALUES ('entregar','entregar','ENTREGAR.gif');
+INSERT INTO public.palabras VALUES ('entusiasmarse','entusiasmarse','ENTUSIASMARSE.gif');
+INSERT INTO public.palabras VALUES ('epoca','epoca','EPOCA.gif');
+INSERT INTO public.palabras VALUES ('escalera','escalera','ESCALERA.gif');
+INSERT INTO public.palabras VALUES ('escolar','escolar','ESCOLAR.gif');
+INSERT INTO public.palabras VALUES ('espalda','espalda','ESPALDA.gif');
+INSERT INTO public.palabras VALUES ('especialidad','especialidad','ESPECIALIDAD.gif');
+INSERT INTO public.palabras VALUES ('especialista','especialista','ESPECIALISTA.gif');
+INSERT INTO public.palabras VALUES ('especializarce','especializarce','ESPECIALIZARCE.gif');
+INSERT INTO public.palabras VALUES ('espejo','espejo','ESPEJO.gif');
+INSERT INTO public.palabras VALUES ('estafa','estafa','ESTAFA.gif');
+INSERT INTO public.palabras VALUES ('estafador','estafador','ESTAFADOR.gif');
+INSERT INTO public.palabras VALUES ('estafadora','estafadora','ESTAFADORA.gif');
+INSERT INTO public.palabras VALUES ('estafar','estafar','ESTAFAR.gif');
+INSERT INTO public.palabras VALUES ('estarhastalacoronilla','estarhastalacoronilla','ESTARHASTALACORONILLA.gif');
+INSERT INTO public.palabras VALUES ('estrecho','estrecho','ESTRECHO.gif');
+INSERT INTO public.palabras VALUES ('estupefacta','estupefacta','ESTUPEFACTA.gif');
+INSERT INTO public.palabras VALUES ('etapa','etapa','ETAPA.gif');
+INSERT INTO public.palabras VALUES ('eterna','eterna','ETERNA.gif');
+INSERT INTO public.palabras VALUES ('eterno','eterno','ETERNO.gif');
+INSERT INTO public.palabras VALUES ('excepcionalmente','excepcionalmente','EXCEPCIONALMENTE.gif');
+INSERT INTO public.palabras VALUES ('exprimidor','exprimidor','EXPRIMIDOR.gif');
+INSERT INTO public.palabras VALUES ('fábrica','fábrica','FÁBRICA.gif');
+INSERT INTO public.palabras VALUES ('fabricar','fabricar','FABRICAR.gif');
+INSERT INTO public.palabras VALUES ('facil','facil','FACIL.gif');
+INSERT INTO public.palabras VALUES ('factura','factura','FACTURA.gif');
+INSERT INTO public.palabras VALUES ('falda','falda','FALDA.gif');
+INSERT INTO public.palabras VALUES ('fanesca','fanesca','FANESCA.gif');
+INSERT INTO public.palabras VALUES ('feliz','feliz','FELIZ.gif');
+INSERT INTO public.palabras VALUES ('fin','fin','FIN.gif');
+INSERT INTO public.palabras VALUES ('florero','florero','FLORERO.gif');
+INSERT INTO public.palabras VALUES ('foca','foca','FOCA.gif');
+INSERT INTO public.palabras VALUES ('fotocopiar','fotocopiar','FOTOCOPIAR.gif');
+INSERT INTO public.palabras VALUES ('fracasar','fracasar','FRACASAR.gif');
+INSERT INTO public.palabras VALUES ('fracaso','fracaso','FRACASO.gif');
+INSERT INTO public.palabras VALUES ('freir','freir','FREIR.gif');
+INSERT INTO public.palabras VALUES ('frente','frente','FRENTE.gif');
+INSERT INTO public.palabras VALUES ('fritura','fritura','FRITURA.gif');
+INSERT INTO public.palabras VALUES ('frontal','frontal','FRONTAL.gif');
+INSERT INTO public.palabras VALUES ('fuera','fuera','FUERA.gif');
+INSERT INTO public.palabras VALUES ('fumador','fumador','FUMADOR.gif');
+INSERT INTO public.palabras VALUES ('fumadora','fumadora','FUMADORA.gif');
+INSERT INTO public.palabras VALUES ('fusible','fusible','FUSIBLE.gif');
+INSERT INTO public.palabras VALUES ('futuro','futuro','FUTURO.gif');
+INSERT INTO public.palabras VALUES ('gastronomia','gastronomia','GASTRONOMIA.gif');
+INSERT INTO public.palabras VALUES ('gatear','gatear','GATEAR.gif');
+INSERT INTO public.palabras VALUES ('generosa','generosa','GENEROSA.gif');
+INSERT INTO public.palabras VALUES ('generoso','generoso','GENEROSO.gif');
+INSERT INTO public.palabras VALUES ('golpe','golpe','GOLPE.gif');
+INSERT INTO public.palabras VALUES ('golpear','golpear','GOLPEAR.gif');
+INSERT INTO public.palabras VALUES ('gracias','gracias','GRACIAS.gif');
+INSERT INTO public.palabras VALUES ('grasa','grasa','GRASA.gif');
+INSERT INTO public.palabras VALUES ('gratis','gratis','GRATIS.gif');
+INSERT INTO public.palabras VALUES ('gritodeguerra','gritodeguerra','GRITODEGUERRA.gif');
+INSERT INTO public.palabras VALUES ('grosero','grosero','GROSERO.gif');
+INSERT INTO public.palabras VALUES ('guardarselainformación','guardarselainformación','GUARDARSELAINFORMACIÓN.gif');
+INSERT INTO public.palabras VALUES ('guarderia','guarderia','GUARDERIA.gif');
+INSERT INTO public.palabras VALUES ('guata','guata','GUATA.gif');
+INSERT INTO public.palabras VALUES ('guitarra','guitarra','GUITARRA.gif');
+INSERT INTO public.palabras VALUES ('heladodemáquina','heladodemáquina','HELADODEMÁQUINA.gif');
+INSERT INTO public.palabras VALUES ('hipoacúsico','hipoacúsico','HIPOACÚSICO.gif');
+INSERT INTO public.palabras VALUES ('humildad','humildad','HUMILDAD.gif');
+INSERT INTO public.palabras VALUES ('humilde','humilde','HUMILDE.gif');
+INSERT INTO public.palabras VALUES ('imitar','imitar','IMITAR.gif');
+INSERT INTO public.palabras VALUES ('íntima','íntima','ÍNTIMA.gif');
+INSERT INTO public.palabras VALUES ('íntimo','íntimo','ÍNTIMO.gif');
+INSERT INTO public.palabras VALUES ('lactar','lactar','LACTAR.gif');
+INSERT INTO public.palabras VALUES ('ladrillo','ladrillo','LADRILLO.gif');
+INSERT INTO public.palabras VALUES ('lagartija','lagartija','LAGARTIJA.gif');
+INSERT INTO public.palabras VALUES ('lanzada','lanzada','LANZADA.gif');
+INSERT INTO public.palabras VALUES ('lanzado','lanzado','LANZADO.gif');
+INSERT INTO public.palabras VALUES ('lavadora','lavadora','LAVADORA.gif');
+INSERT INTO public.palabras VALUES ('levantar','levantar','LEVANTAR.gif');
+INSERT INTO public.palabras VALUES ('levantarse','levantarse','LEVANTARSE.gif');
+INSERT INTO public.palabras VALUES ('libro','libro','LIBRO.gif');
+INSERT INTO public.palabras VALUES ('llamar','llamar','LLAMAR.gif');
+INSERT INTO public.palabras VALUES ('llamarse','llamarse','LLAMARSE.gif');
+INSERT INTO public.palabras VALUES ('llanura','llanura','LLANURA.gif');
+INSERT INTO public.palabras VALUES ('llevar1','llevar1','LLEVAR1.gif');
+INSERT INTO public.palabras VALUES ('loba','loba','LOBA.gif');
+INSERT INTO public.palabras VALUES ('mamífero','mamífero','MAMÍFERO.gif');
+INSERT INTO public.palabras VALUES ('menopausia','menopausia','MENOPAUSIA.gif');
+INSERT INTO public.palabras VALUES ('mula','mula','MULA.gif');
+INSERT INTO public.palabras VALUES ('nunca','nunca','NUNCA.gif');
+INSERT INTO public.palabras VALUES ('oregano','oregano','OREGANO.gif');
+INSERT INTO public.palabras VALUES ('palma','palma','PALMA.gif');
+INSERT INTO public.palabras VALUES ('panela','panela','PANELA.gif');
+INSERT INTO public.palabras VALUES ('pantufla','pantufla','PANTUFLA.gif');
+INSERT INTO public.palabras VALUES ('pañal','pañal','PAÑAL.gif');
+INSERT INTO public.palabras VALUES ('pañuelo','pañuelo','PAÑUELO.gif');
+INSERT INTO public.palabras VALUES ('papa','papa','PAPA.gif');
+INSERT INTO public.palabras VALUES ('parar','parar','PARAR.gif');
+INSERT INTO public.palabras VALUES ('peces','peces','PECES.gif');
+INSERT INTO public.palabras VALUES ('pedir','pedir','PEDIR.gif');
+INSERT INTO public.palabras VALUES ('pegar','pegar','PEGAR.gif');
+INSERT INTO public.palabras VALUES ('pelear','pelear','PELEAR.gif');
+INSERT INTO public.palabras VALUES ('pena','pena','PENA.gif');
+INSERT INTO public.palabras VALUES ('pendeja','pendeja','PENDEJA.gif');
+INSERT INTO public.palabras VALUES ('perforadora','perforadora','PERFORADORA.gif');
+INSERT INTO public.palabras VALUES ('periodista','periodista','PERIODISTA.gif');
+INSERT INTO public.palabras VALUES ('pesame','pesame','PESAME.gif');
+INSERT INTO public.palabras VALUES ('pesas','pesas','PESAS.gif');
+INSERT INTO public.palabras VALUES ('pescado','pescado','PESCADO.gif');
+INSERT INTO public.palabras VALUES ('piñata','piñata','PIÑATA.gif');
+INSERT INTO public.palabras VALUES ('piston','piston','PISTON.gif');
+INSERT INTO public.palabras VALUES ('propuesta','propuesta','PROPUESTA.gif');
+INSERT INTO public.palabras VALUES ('psicologia','psicologia','PSICOLOGIA.gif');
+INSERT INTO public.palabras VALUES ('quedice','quedice','QUEDICE.gif');
+INSERT INTO public.palabras VALUES ('quemecuentas','quemecuentas','QUEMECUENTAS.gif');
+INSERT INTO public.palabras VALUES ('quieto','quieto','QUIETO.gif');
+INSERT INTO public.palabras VALUES ('quiza','quiza','QUIZA.gif');
+INSERT INTO public.palabras VALUES ('remolque','remolque','REMOLQUE.gif');
+INSERT INTO public.palabras VALUES ('respirar','respirar','RESPIRAR.gif');
+INSERT INTO public.palabras VALUES ('sala','sala','SALA.gif');
+INSERT INTO public.palabras VALUES ('salami','salami','SALAMI.gif');
+INSERT INTO public.palabras VALUES ('saldeaqui','saldeaqui','SALDEAQUI.gif');
+INSERT INTO public.palabras VALUES ('saludar','saludar','SALUDAR.gif');
+INSERT INTO public.palabras VALUES ('saludo','saludo','SALUDO.gif');
+INSERT INTO public.palabras VALUES ('seguridadaeroportuaria','seguridadaeroportuaria','SEGURIDADAEROPORTUARIA.gif');
+INSERT INTO public.palabras VALUES ('servicio','servicio','SERVICIO.gif');
+INSERT INTO public.palabras VALUES ('servilleta','servilleta','SERVILLETA.gif');
+INSERT INTO public.palabras VALUES ('servir','servir','SERVIR.gif');
+INSERT INTO public.palabras VALUES ('siesta','siesta','SIESTA.gif');
+INSERT INTO public.palabras VALUES ('sindinero','sindinero','Sindinero.gif');
+INSERT INTO public.palabras VALUES ('sobrina','sobrina','SOBRINA.gif');
+INSERT INTO public.palabras VALUES ('sobrino','sobrino','SOBRINO.gif');
+INSERT INTO public.palabras VALUES ('su','su','SU.gif');
+INSERT INTO public.palabras VALUES ('subir','subir','SUBIR.gif');
+INSERT INTO public.palabras VALUES ('suyo','suyo','SUYO.gif');
+INSERT INTO public.palabras VALUES ('tacaña','tacaña','TACAÑA.gif');
+INSERT INTO public.palabras VALUES ('tacaño','tacaño','TACAÑO.gif');
+INSERT INTO public.palabras VALUES ('talvez','talvez','TALVEZ.gif');
+INSERT INTO public.palabras VALUES ('tapar','tapar','TAPAR.gif');
+INSERT INTO public.palabras VALUES ('taxi','taxi','TAXI.gif');
+INSERT INTO public.palabras VALUES ('television','television','TELEVISION.gif');
+INSERT INTO public.palabras VALUES ('temeraria','temeraria','TEMERARIA.gif');
+INSERT INTO public.palabras VALUES ('temporal','temporal','TEMPORAL.gif');
+INSERT INTO public.palabras VALUES ('terminar','terminar','TERMINAR.gif');
+INSERT INTO public.palabras VALUES ('tienda','tienda','TIENDA.gif');
+INSERT INTO public.palabras VALUES ('tocino','tocino','TOCINO.gif');
+INSERT INTO public.palabras VALUES ('todo','todo','TODO.gif');
+INSERT INTO public.palabras VALUES ('todoeldía','todoeldía','TODOELDÍA.gif');
+INSERT INTO public.palabras VALUES ('tomar','tomar','TOMAR.gif');
+INSERT INTO public.palabras VALUES ('torear','torear','TOREAR.gif');
+INSERT INTO public.palabras VALUES ('torera','torera','TORERA.gif');
+INSERT INTO public.palabras VALUES ('torero','torero','TORERO.gif');
+INSERT INTO public.palabras VALUES ('torturar','torturar','TORTURAR.gif');
+INSERT INTO public.palabras VALUES ('universidad','universidad','UNIVERSIDAD.gif');
+INSERT INTO public.palabras VALUES ('usada','usada','USADA.gif');
+INSERT INTO public.palabras VALUES ('usado','usado','USADO.gif');
+INSERT INTO public.palabras VALUES ('usar','usar','USAR.gif');
+INSERT INTO public.palabras VALUES ('utilizar','utilizar','UTILIZAR.gif');
+INSERT INTO public.palabras VALUES ('vivienda','vivienda','VIVIENDA.gif');
+INSERT INTO public.palabras VALUES ('yanomas','yanomas','YANOMAS.gif');
